@@ -1,0 +1,98 @@
+/* Tipografía moderna */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #000; /* fondo negro */
+  color: #fff; /* texto blanco */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Menú de navegación */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #111;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  color: #00aaff;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav a:hover {
+  color: #4B0082; /* hover en morado */
+}
+
+/* Encabezado */
+header {
+  background: linear-gradient(135deg, #4B0082, #000);
+  text-align: center;
+  padding: 100px 20px 60px; /* más espacio por el menú fijo */
+}
+
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  margin: 0;
+  color: #00aaff;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #ddd;
+}
+
+/* Secciones */
+section {
+  padding: 80px 20px; /* espacio extra por el menú fijo */
+  border-bottom: 1px solid #222;
+}
+
+section h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #00aaff;
+  margin-bottom: 15px;
+}
+
+/* Links */
+a {
+  color: #00aaff;
+  text-decoration: none;
+  transition: color 0.3s ease; /* transición suave */
+}
+
+a:hover {
+  color: #4B0082;
+}
+
+/* Scroll suave para los enlaces del menú */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #aaa;
+}
